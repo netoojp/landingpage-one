@@ -1,0 +1,21 @@
+
+    /* cabeça do site*/
+
+header section { 
+    justify-content: space-between;/* dividir elementos em espaços iguias*/
+    align-items: center; /*centralizar logo e menu*/
+}
+
+/*vou puxar o header a nav e o ul do html*/
+
+header nav ul{
+    display: flex;
+    flex-direction: row; /*direcçao - row horizontal*/
+    align-items: center;
+
+}
+
+header nav ul li a{ 
+    padding: 0 15px; /*deixa separado lá na direita*/
+    color: #3399cc;
+}
